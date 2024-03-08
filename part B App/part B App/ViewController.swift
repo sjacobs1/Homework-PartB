@@ -21,7 +21,13 @@ class ViewController: UIViewController {
     @IBAction func increaseCounterTapped(_ sender: Any) {
         counter += 1
         counterDisplay.text = "\(counter)"
+        
+        if counter == 5 {
+            self.view.backgroundColor = UIColor(red: 0.094, green: 0.165, blue: 0.118, alpha: 1.0)
+        }
     }
+    
+    
     
 }
 
