@@ -24,10 +24,10 @@ class ViewController: UIViewController {
         
         if counter == 5 {
             self.view.backgroundColor = UIColor(red: 0.094, green: 0.165, blue: 0.118, alpha: 1.0)
+        } else if counter == 10{
+            self.view.backgroundColor = UIColor(red: 0.294, green: 0.165, blue: 0.118, alpha: 1.0)
         }
     }
-    
-    
     
 }
 
